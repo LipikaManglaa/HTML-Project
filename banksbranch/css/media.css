@@ -1,0 +1,1168 @@
+@media screen and (min-width:200px) and (max-width:567px){
+   p{
+    text-align: justify;
+    line-height: 15px;
+   }
+    .header-inner>nav {
+        position: absolute;
+        top: 100%;
+       width: 100%;
+    }
+    .header-inner>nav>ul {
+        background-color: var(--hover-background-color);
+        width: 100%;
+        flex-direction: column;
+    }
+    .header-inner{
+        position: relative;
+        padding: 5px 0px;
+    }
+    .header-inner>nav>ul>li{
+            font-size: 14px;
+            width: calc(100% - 15px);
+        margin-right: 0px;
+      
+        padding: 15px 0px 15px 15px;
+        border-bottom: 1px solid #c4c4c4;
+    }
+    .header-inner>nav>ul>li:last-child{
+border-bottom: none;
+    }
+    header>.header-inner>nav{
+        display: none;
+        transition: .3s;
+    }
+    .showMenu{
+        display: block !important;
+    }
+   
+        .header-btn {
+            display:none
+    }
+   
+    .mobile-menu{
+        display: inline-block;
+    }
+    .mobile-menu>i{
+        padding-right: 20px;
+        color: #fff;
+        font-size: 25px;
+    }
+    .menuListBorder{
+        border-style: solid !important;
+        border-width: 1px !important;
+        border-bottom-color: var(--secondary-color)!important;
+      
+        
+    }
+    .sub-menu{
+       position: static !important;
+       max-height: 80px;
+    width: 100% !important;
+
+    }
+  
+    .imgRotate{
+        transform: rotate(180deg);
+        /* border: 1px solid var(--secondary-color); */
+
+    }
+    .showSubMenu{
+        display: none!important;
+     }
+    .logo {
+        flex-basis: 15%;
+        padding: 8px 0px 8px 10px;
+    }
+    .logo>img {
+        width: 100px;
+    }
+    /* banner Section starts here */
+.banner-inner {
+    padding: 20px 0px;
+}
+.banner-content {
+  flex-basis: calc(100% - 30px);
+  padding: 0px 15px;
+}
+.banner-content>.banner-welcome {
+       font-size: 13px;
+     padding: 10px 12px;
+    /* margin: auto;
+    display: table; */
+}
+.banner-content>h1 {
+    font-size: 35px;
+    line-height: 51.4px;
+      margin: 20px 0px;
+}
+.banner-content>p {
+    font-size: 14px;
+       line-height: 25px;
+    margin-bottom: 20px;
+}
+.banner-btn-start {
+       font-size: 14px;
+     padding: 12px 25px;
+}
+.banner-btn-contact {
+    font-size: 14px;
+  padding: 12px 25px;
+}
+.banner-inner {
+       flex-direction: column;
+    height: auto;
+}
+.banner-slider::before{
+    content: "";
+    display: none;
+}
+.banner-slider::after{
+    content: "";
+    display: none;
+}
+.application-inner {
+
+    padding: 30px 15px;
+    flex-direction: column;
+}
+.application-content {
+    flex-basis: 100%;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.application-content>h4 {
+    font-size: 18px;
+       margin-left: 0px;
+       text-align: center;
+}
+.banner-btn{
+    display: flex;
+    flex-direction: column;
+}
+.banner-btn-contact{
+    margin: 20px 0px;
+}
+#bank-branch {
+ 
+    padding: 0px;
+}
+
+.bank-branch-inner{
+    flex-direction: column;
+}
+.bank-branch-img figure::before {
+    content: "";
+    display: none;
+}
+.bank-branch-content {
+    flex-basis: 100%;
+    padding-top: 30px;
+    text-align: center;
+    padding: 0px 15px;
+}
+.bank-branch-content>h5 {
+       font-size: 26px;
+       margin-top: 20px;
+}
+.bank-branch-content>h3 {
+      font-size: 30px;
+       margin: 10px 0px;
+}
+.bank-branch-content>p {
+      line-height: 27px;
+    font-size: 15px;
+}
+.bank-branch-helped {
+    flex-basis: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.bank-branch-business {
+    margin-top: 20px;
+    flex-direction: column;
+}
+.bank-branch-helped>h4 {
+    font-size: 50px;
+}
+.bank-branch-helped>p {
+        font-size: 17px;
+}
+#loan-services {
+       padding: 0px 0px;
+}
+.loan-services-inner {
+       text-align: center;
+       padding: 0px 15px;
+       flex-direction: column;
+}
+.loan-services-content>h5 {
+      font-size: 26px;
+}
+.loan-services-content>h3 {
+    font-size: 30px;
+     margin: 10px 0px;
+}
+.loan-services-content {
+    flex-basis: 100%;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.loan-services-content>p {
+      line-height: 28px;
+    font-size: 16px;
+}
+.loan-services-content>button {
+       font-size: 15px;
+       padding: 15px 35px;
+    margin-top: 20px;
+}
+.loan-services-content-back {
+    
+    padding: 30px 15px ;
+}
+
+.loan-services-content-back>h4 {
+        font-size: 26px;
+    margin: 15px 0px;
+}
+.loan-services-content-back>p {
+        font-size: 16px;
+    line-height: 27px;
+}
+.loan-services-content-noback {
+    flex-basis: calc(30% - 50px);
+    padding: 30px 15px 10px 15px;
+}
+.loan-services-content-noback>h4 {
+        font-size: 26px;
+       margin: 15px 0px;
+}
+.loan-services-content-noback>p {
+      font-size: 16px;
+    line-height: 27px;
+}
+.loan-services-content-noback>button {
+        margin-top: 0px;
+}
+#fast-easy-application {
+    width: 100%;
+    padding: 40px 0px;
+}
+.fast-easy-application-inner>h5 {
+      font-size: 26px;
+}
+.fast-easy-application-inner>h3 {
+      font-size: 35px;
+       margin: 15px auto;
+     width: 100%;
+   
+}
+.fast-easy-application-inner{
+    padding: 0px 10px;
+}
+.fast-easy-application-inner>p {
+    line-height: 35px;
+    font-size: 16px;
+    width: 100%;
+}
+.fast-east-application-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.fast-east-application-list {
+    flex-basis: 100%;
+   margin-bottom: 40px;
+    padding: 8px;
+    margin-right: 0px;
+}
+.fast-east-application-list>img {
+    width: 70px;
+}
+.fast-east-application-list>h5 {
+    font-size: 18px;
+       margin-bottom: 10px;
+     
+}
+.fast-east-application-list>p {
+    font-size: 16px;
+      margin-bottom: 20px;
+    line-height: 28px;
+}
+#testomonial {
+     padding: 40px 0px;
+}
+.testimonial-inner>h5 {
+      font-size: 28px;
+}
+
+.testimonial-inner>h3 {
+       font-size: 35px;
+       margin: 15px 0px;
+}
+.testimonial-items {
+    display: flex;
+       padding-top: 50px;
+       flex-direction: column;
+}
+.testimonial-list {
+    padding: 15px;
+    flex-basis: calc(100% - 60px);
+    margin-bottom: 30px;
+    margin: 0px 15px 30px 15px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+.testimonial-images>i {
+    font-size: 35px;
+}
+#business-fund {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+}
+.business-fund-inner {
+    flex-direction: column;
+    padding: 40px 20px;
+}
+.business-fund-items>h3 {
+        font-size: 25px;
+       margin-bottom: 25px;
+}
+.business-fund-inner::after{
+    display: none;
+}
+.business-fund-inner::before{
+    display: none;
+}
+.footer-inner{
+        flex-wrap: wrap;
+}
+.footer-content{
+    flex-basis: calc(100% - 30px);
+    padding: 0px 15px;
+}
+.footer-content>img {
+    text-align: center;
+    width: 150px;
+    display: table;
+    margin: 0px auto 25px auto;
+}
+.footer-link {
+    flex-basis: 40%;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.service-link {
+    flex-basis: 40%;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer-newsletter {
+    flex-basis: calc(100% - 30px);
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.footer-link>h4, .service-link>h4, .footer-newsletter>h4 {
+
+    margin-bottom: 20px;
+}
+#footer {
+    padding: 40px 0px;
+}
+.footer-newsletter>form>input {
+        width: calc(100% - 30px);
+}
+#banner-contact {
+    padding: 20px 0px 0px 0px;
+}
+.banner-contact-inner {
+    flex-direction: column;
+}
+.banner-contact-content {
+    flex-basis: calc(100% - 30px);
+    padding: 0px 15px;
+}
+.banner-contact-content>h2 {
+    font-size: 35px;
+        margin: 10px 0px;
+}
+.banner-contact-content-items {
+       margin-bottom: 25px;
+    margin-top: 30px;
+}
+.banner-contact-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.banner-contact-content-list>p {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.banner-contact-form {
+    flex-basis: 100%;
+}
+.banner-contact-form>form {
+    padding: 30px 20px;
+    background: #fff;
+}
+.banner-contct-form-input-items {
+    flex-wrap: wrap
+}
+.banner-contct-form-input {
+        width: 100%;
+}
+.banner-contct-form-input>label {
+    margin-bottom: 10px;
+}
+.banner-contact-form>form>button {
+      padding: 15px 30px;
+       width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.office-location-img::before {
+    display: none;
+}
+#office-location{
+    padding: 30px 0px;
+}
+.office-location-inner {
+       flex-direction: column;
+   }
+   .office-location-content{
+    padding: 15px;
+    flex-basis: calc(100% - 30px);
+   }
+   .office-location-content>h5 {
+       font-size: 26px;
+   }
+   .office-location-content>h3 {
+        font-size: 35px;
+}
+.office-location-content-items-icon {
+    width: 30px;
+    height: 30px;
+   
+}
+.office-location-content-items-icon>i {
+       font-size: 15px;
+    padding: 8px;
+}
+.personal-loan-services-best-client-inner>figure::before{
+    display: none;
+}
+.personal-loan-service {
+    width: 100%;
+    padding: 40px 0px;
+}
+.personal-loan-service-inner {
+    padding: 0px 15px;
+  }
+  .personal-loan-services-content>h5 {
+        font-size: 28px;
+  }
+  .personal-loan-services-content>h5 {
+        font-size: 28px;
+  }
+  .personal-loan-service-item-list {
+    flex-direction: column;
+    margin-top: 20px;
+}
+.personal-loan-services-content>p {
+      font-size: 16px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+#personal-loan-service-best-client {
+    width: 100%;
+    padding: 0px 0px;
+}
+.personal-loan-services-best-client-inner {
+    flex-direction: column;
+}
+.personal-loan-services-best-client-content {
+    flex-basis: calc(100% - 30px);
+    padding: 0px 15px;
+}
+.personal-loan-services-best-client-content>h5 {
+     font-size: 28px;
+    margin-top: 20px;
+}
+.personal-loan-services-best-client-content>h3 {
+       font-size: 34px;
+      margin: 15px 0px;
+}
+.personal-loan-services-best-client-content>p {
+        line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.personal-loan-services-best-client-service-items {
+        flex-direction: column;
+    margin-bottom: 30px;
+    flex-basis: 40%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 15px;
+}
+.personal-loan-services-best-client-service-items>span {
+      margin-top: 10px;
+
+}
+.personal-loan-services-best-client-inner>figure {
+    position: relative;
+    flex-basis: 47%;
+    height: 300px !important;
+
+}
+#personal-loan-service {
+     padding: 40px 0px 0px 0px;
+}
+}
+@media screen and (min-width:568px) and (max-width:767px){
+    .header-inner {
+               padding: 0px 10px;
+    }
+    .logo>img {
+        width: 120px;
+    }
+    
+    .header-btn>button {
+        font-size: 12px;
+        padding: 8px 20px;
+        margin-left: 15px;
+}
+.header-inner>nav {
+    flex-basis: 35%;
+}
+.header-inner>nav>ul>li {
+        font-size: 13px;
+       margin-right: 15px;
+    padding: 23px 0px;
+}
+.header-btn {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-inner {
+    padding: 20px 0px;
+}
+.banner-content {
+  flex-basis: calc(100% - 30px);
+  padding: 0px 15px;
+}
+.banner-content>.banner-welcome {
+       font-size: 13px;
+     padding: 10px 12px;
+    /* margin: auto;
+    display: table; */
+}
+.banner-content>h1 {
+    font-size: 40px;
+    line-height: 51.4px;
+      margin: 20px 0px;
+}
+.banner-content>p {
+    font-size: 14px;
+       line-height: 25px;
+    margin-bottom: 20px;
+}
+.banner-btn{
+    margin-bottom: 20px;
+}
+.banner-btn-start {
+       font-size: 14px;
+     padding: 12px 25px;
+}
+.banner-btn-contact {
+    font-size: 14px;
+  padding: 12px 25px;
+}
+.banner-inner {
+       flex-direction: column;
+    height: auto;
+}
+.application-content>h4 {
+    font-size: 18px;
+}
+.application-content {
+    flex-basis: 30%;
+    justify-content: space-around;
+   
+    padding: 0px 15px;
+}
+#bank-branch {
+ 
+    padding: 0px;
+}
+
+.bank-branch-inner{
+    flex-direction: column;
+}
+.bank-branch-img figure::before {
+    content: "";
+    display: none;
+}
+.bank-branch-content {
+    flex-basis: 100%;
+    padding-top: 30px;
+    text-align: center;
+    padding: 0px 15px;
+}
+.bank-branch-content>h5 {
+       font-size: 26px;
+       margin-top: 20px;
+}
+.bank-branch-content>h3 {
+      font-size: 30px;
+       margin: 10px 0px;
+}
+.bank-branch-content>p {
+      line-height: 27px;
+    font-size: 15px;
+}
+.bank-branch-helped {
+    flex-basis: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.bank-branch-business {
+    margin-top: 20px;
+    flex-direction: column;
+}
+.bank-branch-helped>h4 {
+    font-size: 50px;
+}
+.bank-branch-helped>p {
+        font-size: 17px;
+}
+#loan-services {
+       padding: 0px 0px;
+}
+.loan-services-inner {
+       text-align: center;
+       padding: 15px;
+       flex-wrap: wrap;
+}
+.loan-services-content>h5 {
+      font-size: 26px;
+}
+.loan-services-content>h3 {
+    font-size: 30px;
+     margin: 10px 0px;
+}
+.loan-services-content {
+    flex-basis: 100%;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.loan-services-content>p {
+      line-height: 28px;
+    font-size: 16px;
+}
+.loan-services-content>button {
+       font-size: 15px;
+       padding: 15px 35px;
+    margin-top: 20px;
+}
+.loan-services-content-back {
+    flex-basis: 45%;
+    padding: 30px 15px ;
+    margin-bottom: 30px;
+}
+
+.loan-services-content-back>h4 {
+        font-size: 26px;
+    margin: 15px 0px;
+}
+.loan-services-content-back>p {
+        font-size: 16px;
+    line-height: 27px;
+}
+.loan-services-content-noback {
+    flex-basis: 45%;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.loan-services-content-noback>h4 {
+        font-size: 26px;
+       margin: 15px 0px;
+}
+.loan-services-content-noback>p {
+      font-size: 16px;
+    line-height: 27px;
+}
+.loan-services-content-noback>button {
+        margin-top: 0px;
+}
+#fast-easy-application {
+    width: 100%;
+    padding: 40px 0px;
+}
+.fast-easy-application-inner>h5 {
+      font-size: 26px;
+}
+.fast-easy-application-inner>h3 {
+      font-size: 35px;
+       margin: 15px auto;
+     width: 100%;
+   
+}
+.fast-easy-application-inner{
+    padding: 0px 10px;
+}
+.fast-easy-application-inner>p {
+    line-height: 35px;
+    font-size: 16px;
+    width: 100%;
+}
+.fast-east-application-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.fast-east-application-list {
+    flex-basis: 100%;
+   margin-bottom: 40px;
+    padding: 8px;
+    margin-right: 0px;
+}
+.fast-east-application-list>img {
+    width: 70px;
+}
+.fast-east-application-list>h5 {
+    font-size: 18px;
+       margin-bottom: 10px;
+     
+}
+.fast-east-application-list>p {
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+#testomonial {
+    padding: 40px 0px;
+}
+.testimonial-inner>h5 {
+     font-size: 28px;
+}
+
+.testimonial-inner>h3 {
+      font-size: 35px;
+      margin: 15px 0px;
+}
+.testimonial-items {
+   display: flex;
+      padding-top: 50px;
+      flex-direction: column;
+}
+.testimonial-list {
+   padding: 15px;
+   flex-basis: calc(100% - 60px);
+   margin-bottom: 30px;
+   margin: 0px 15px 30px 15px;
+   box-shadow: 0px 0px 10px 2px #ccc;
+}
+.testimonial-images>i {
+   font-size: 35px;
+}
+#business-fund {
+    width: 100%;
+    padding: 0px;
+}
+.business-fund-inner {
+      padding: 40px 30px;
+}
+.business-fund-inner::after{
+    display: none !important;
+}
+.business-fund-inner::before{
+    display: none !important;
+}
+#footer{
+    margin-top: 30px;
+}
+.footer-inner{
+    flex-wrap: wrap;
+}
+.footer-content{
+flex-basis: calc(100% - 30px);
+padding: 0px 15px;
+}
+.footer-content>img {
+text-align: center;
+width: 150px;
+display: table;
+margin: 0px auto 25px auto;
+}
+.footer-link {
+flex-basis: 40%;
+margin-top: 20px;
+padding-left: 15px;
+}
+.service-link {
+flex-basis: 40%;
+margin-top: 20px;
+padding-right: 15px;
+padding-left: 15px;
+}
+.footer-newsletter {
+flex-basis: calc(100% - 30px);
+padding: 0px 15px;
+margin-top: 20px;
+}
+.footer-link>h4, .service-link>h4, .footer-newsletter>h4 {
+
+margin-bottom: 20px;
+}
+#footer {
+padding: 40px 0px;
+}
+.footer-newsletter>form>input {
+    width: calc(100% - 30px);
+}
+.outer-wrap {
+       right: 50px;
+}
+#banner-contact {
+    padding: 40px 0px;
+}
+.banner-contact-inner {
+    flex-direction: column;
+}
+.banner-contact-content {
+    flex-basis: calc(100% - 30px);
+    padding: 0px 15px;
+}
+.banner-contact-content>h2 {
+    font-size: 35px;
+        margin: 10px 0px;
+}
+.banner-contact-content-items {
+       margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.banner-contact-content-list>p {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.banner-contact-form {
+    flex-basis: 100%;
+}
+.banner-contact-form>form {
+    padding: 30px 20px;
+    background: #fff;
+}
+.banner-contct-form-input-items {
+    flex-wrap: wrap
+}
+.banner-contct-form-input {
+        width: 100%;
+}
+.banner-contct-form-input>label {
+    margin-bottom: 10px;
+}
+.banner-contact-form>form>button {
+      padding: 15px 30px;
+       width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.office-location-img>img {
+    width: 100%;
+    height: 300px;
+}
+.office-location-img::before {
+    display: none;
+}
+#office-location{
+    padding: 30px 0px;
+}
+.office-location-inner {
+       flex-direction: column;
+   }
+   .office-location-content{
+    padding: 15px;
+    flex-basis: calc(100% - 30px);
+   }
+   .office-location-content>h5 {
+       font-size: 26px;
+   }
+   .office-location-content>h3 {
+        font-size: 35px;
+}
+
+.office-location-content-items-icon>i {
+       font-size: 15px;
+    padding: 8px;
+}
+.personal-loan-services-best-client-inner>figure::before{
+    display: none;
+}
+.personal-loan-service {
+    width: 100%;
+    padding: 40px 0px;
+}
+.personal-loan-service-inner {
+    padding: 0px 15px;
+  }
+  .personal-loan-services-content>h5 {
+        font-size: 28px;
+  }
+  .personal-loan-services-content>h5 {
+        font-size: 28px;
+  }
+  .personal-loan-service-item-list {
+    flex-direction: column;
+    margin-top: 20px;
+}
+.personal-loan-services-content>p {
+      font-size: 16px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+#personal-loan-service-best-client {
+    width: 100%;
+    padding: 0px 0px;
+}
+.personal-loan-services-best-client-inner {
+    flex-direction: column;
+}
+.personal-loan-services-best-client-content {
+    flex-basis: calc(100% - 30px);
+    padding: 0px 15px;
+}
+.personal-loan-services-best-client-content>h5 {
+     font-size: 28px;
+    margin-top: 20px;
+}
+.personal-loan-services-best-client-content>h3 {
+       font-size: 34px;
+      margin: 15px 0px;
+}
+.personal-loan-services-best-client-content>p {
+        line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.personal-loan-services-best-client-service-items>span {
+      margin-top: 10px;
+
+}
+.personal-loan-services-best-client-inner>figure {
+    position: relative;
+    flex-basis: 47%;
+    height: 300px !important;
+
+}
+#personal-loan-service {
+     padding: 40px 0px 0px 0px;
+} 
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .header-inner {
+        padding: 0px 10px;
+}
+.logo>img {
+ width: 120px;
+}
+
+.header-btn>button {
+ font-size: 14px;
+ padding: 8px 20px;
+ margin-left: 15px;
+}
+.header-inner>nav {
+flex-basis: 45%;
+}
+.header-inner>nav>ul>li {
+ font-size: 14px;
+margin-right: 25px;
+padding: 23px 0px;
+}
+.header-btn {
+flex-basis: 40%;
+}
+/* Header Section ends here  */
+/* banner Section starts here */
+.banner-inner {
+        padding: 40px 15px;
+}
+.banner-content>h1 {
+    font-size: 50px;
+    line-height: 60px;
+      margin: 25px 0px;
+}
+.banner-content>p {
+    font-size: 16px;
+       line-height: 27px;
+    margin-bottom: 25px;
+}
+.banner-btn-start {
+      font-size: 14px;
+       padding: 13px 35px;
+}
+.banner-btn-contact {
+    font-size: 14px;
+     padding: 13px 35px;
+}
+
+/* banner Section ends here */
+.banner-slider::before {
+    content: "";
+    width: 250px;
+    height: 200px;
+       bottom: -60px;
+      left: -30px;
+  
+}
+.banner-slider{
+    padding-right: 20px;
+}
+.banner-slider::after{
+    display: none;
+}
+.banner-slider {
+    position: relative;
+    height: 270px;
+    flex-basis: 46%;
+}
+#bank-branch {
+    width: 100%;
+    padding: 60px 0px;
+}
+.bank-branch-inner{
+    padding: 0px 15px;
+}
+.bank-branch-img figure::before {
+    content: "";
+   
+    height: 150px;
+    width: 200px;
+   
+    left: -37px;
+    top: 63px;
+}
+.bank-branch-content {
+    flex-basis: 49%;
+    padding-top: 0px;
+}
+.bank-branch-content>h5 {
+      font-size: 30px;
+}
+.bank-branch-content>h3 {
+      font-size: 40px;
+    margin: 15px 0px;
+}
+.bank-branch-content>p {
+        line-height: 28px;
+    font-size: 17px;
+}
+.bank-branch-business {
+    margin-top: 20px;
+}
+.bank-branch-helped>h4 {
+    font-size: 60px;
+}
+.bank-branch-helped>p {
+       font-size: 18px;
+}
+.loan-services-inner{
+    padding: 0px 20px;
+}
+#loan-services {
+       padding: 50px 0px;
+}
+.loan-services-content {
+    flex-basis: 45%;
+}
+.loan-services-content-back {
+    flex-basis:calc(45% - 30px);
+    padding: 30px 15px;
+}
+.loan-services-content-noback {
+    flex-basis:calc(45% - 30px);
+    padding: 30px 15px;
+}
+.loan-services-content>h5 {
+       font-size: 30px;
+}
+.loan-services-content>h3 {
+       font-size: 40px;
+}
+.banner-contact-inner {
+      padding: 0px 20px;
+}
+.banner-contact-content>h2 {
+      font-size: 40px;
+}
+.banner-contct-form-input-items {
+       flex-direction: column;
+}
+.banner-contct-form-input {
+     width: 100%;
+}
+.office-location-inner {
+    padding: 0px 20px;
+}
+.office-location-img::before{
+    display: none;
+}
+.office-location-img{
+    height: 400px;
+}
+.office-location-img>img {
+       height: 100%;
+}
+.office-location-content>h5 {
+       font-size: 30px;
+}
+.office-location-content>h3 {
+    font-size: 45px;
+}
+.footer-inner {
+    padding: 0px 20px;
+      flex-wrap: wrap;
+}
+.footer-content {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+.footer-content>img {
+    width: 200px;
+      margin: 0px auto 20px 0px;
+    display: table;
+}
+.personal-loan-services-best-client-inner>figure::before{
+    display: none;
+}
+}
+@media screen and (min-width:992px) and (max-width:1300px){
+    .header-inner,.banner-inner,.application-inner,.bank-branch-inner,.loan-services-inner {
+       width: 90%;
+}
+.header-btn {
+    flex-basis: 40%;
+}
+.header-inner>nav {
+    flex-basis: 44%;
+}
+.banner-inner {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.banner-slider::after {
+      top: -10px;
+      right: -18px;
+
+}
+}

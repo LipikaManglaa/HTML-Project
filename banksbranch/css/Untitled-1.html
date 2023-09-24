@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+//  let arr = [1, 2, 3, 4, 5];
+//  arr.splice(2,2);
+
+
+
+//  console.log(arr)
+
+
+//  let arr = [1, 2, 3, 4, 5], removeElement = 3;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === removeElement) {                           
+//     arr.splice(i, 1);
+//   }
+// }
+// console.log(`New array is ${arr}`); 
+
+// let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], sum = 0;
+
+// for (let i = 0; i < matrix.length; i++) {   //[1, 2, 3]  length 3
+//    for (let j = 0; j < matrix[i].length; j++) {      //length 2
+//     if (i == j) {                  
+//       sum += matrix[i][j];    //36
+//       console.log(sum) 
+//     }
+//   }
+// }
+// console.log(`Sum of diagonal elements of the matrix is ${sum}`)
+
+let arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], temp;   //length11
+for (let i = 0; i < arr.length - 1; i++) {        //3,1
+  for (let j = 0; j < arr.length - i - 1; j++) {  //length 11-3-1=10,
+    if (arr[j] > arr[j + 1]) {  //8>9
+      temp = arr[j];           //temp f
+      arr[j] = arr[j + 1];
+      arr[j + 1] = temp;
+         }
+  }
+}
+console.log(`Sorted array in ascending order is ${arr}`);
+
+
+
+let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], transpose = [];
+
+for (let i = 0; i < matrix[0].length; i++){
+                                                //matrix[1,2,3]
+  transpose[i] = [];                          //1,2,3
+  for (let j = 0; j < matrix.length; j++) {  //3
+    transpose[i][j] = matrix[j][i];           
+  }
+}
+console.log(`Transpose of the matrix is ${transpose}`);
+
+let arr = [1, 2, 3, 4, 5], maxProduct = 0;  
+for (let i = 0; i < arr.length; i++) {     //i=0 ,value=1
+  for (let j = i + 1; j < arr.length; j++) {    //j=1  value=2 
+    if (arr[i] * arr[j] > maxProduct) {       
+      maxProduct = arr[i] * arr[j];           //1*3=3 2*3=6 3*4 12 4*5=20
+    }
+  }
+}
+console.log(`Maximum product of any two elements in the array is ${maxProduct}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
